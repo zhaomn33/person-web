@@ -1,0 +1,21 @@
+.top-nav{
+  height: 30px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  float: right;
+}
+.top-nav .active{
+  background-color: rgb(251, 164, 3);
+}
+.top-nav a{
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  padding: 4px 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+}
