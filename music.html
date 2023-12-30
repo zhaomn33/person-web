@@ -22,19 +22,43 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   .main-content .music-list{
     width: 400px;
   }
   .main-content .music-list ul{
-    width: 200px;
+    width: 100%;
   }
-  .main-content .img-list{
-    width: 600px;
+  .main-content .music-list ul li{
+    width: 100%;
+    margin-bottom: 14px;
   }
-  .main-content .img-list{
-    width: 100px;
+  .main-content .music-list .music-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  .main-content .music-list .music-time{
+    width: calc(100% - 40px);
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+  }
+  .main-content .music-list .music-come{
+    width: calc(100% - 40px);
+    text-align: right;
+    font-size: 16px;
+    color: #444;
+  }
+  .main-content .imgs-list{
+    width: calc(100% - 550px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .main-content .imgs-list img{
+    width: 240px;
+    height: 320px;
   }
 </style>
 
@@ -48,19 +72,102 @@
     <div class="main-content">
       <div class="music-list">
         <ul>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
-          <li>《跳进明天的旅程》：</li>
+          <li>
+            <div class="music-title">《跳进明天的旅程》</div>
+            <div class="music-time">2023-12-26</div> 
+            <div class="music-come">《跳进地理书的旅行第二季》主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《要做就做南波万》</div>
+            <div class="music-time">2023-12-8</div> 
+            <div class="music-come">《名侦探学院第七季》主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《捕梦》</div>
+            <div class="music-time">2023-11-10</div> 
+            <div class="music-come">个人单曲</div>
+          </li>
+          <li>
+            <div class="music-title">《无畏瞩目》</div>
+            <div class="music-time">2023-10-20</div> 
+            <div class="music-come">NOVA电子竞技俱乐部无畏契约战队主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《歌谣》</div>
+            <div class="music-time">2023-9-29</div> 
+            <div class="music-come">个人单曲</div>
+          </li>
+          <li>
+            <div class="music-title">《再见再见》</div>
+            <div class="music-time">2023-9-24</div> 
+            <div class="music-come">电影《我是哪吒2之英雄归来》宣传推广曲</div>
+          </li>
+          <li>
+            <div class="music-title">《成为你想成为的大人》</div>
+            <div class="music-time">2023-9-1</div> 
+            <div class="music-come">《跳进地理书的旅行第二季》主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《明明》</div>
+            <div class="music-time">2023-7-28</div> 
+            <div class="music-come">电视剧《独家童话》插曲</div>
+          </li>
+          <li>
+            <div class="music-title">《七色曼陀罗》</div>
+            <div class="music-time">2022-10-13</div> 
+            <div class="music-come">音乐剧《唐朝诡事录之曼陀罗》推广主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《华夏骄傲》</div>
+            <div class="music-time">2021-12-22</div> 
+            <div class="music-come">行业电视荣誉盛典/为中国民族品牌点赞 主题曲</div>
+          </li>
+          <li>
+            <div class="music-title">《山外山年外年》</div>
+            <div class="music-time">2021-12-9</div> 
+            <div class="music-come">「戏游记」•第壹辑</div>
+          </li>
+          <li>
+            <div class="music-title">《幸福不会从天降》</div>
+            <div class="music-time">2021-6-28</div> 
+            <div class="music-come">中宣部“学习强国”献礼音乐专辑《百年》</div>
+          </li>
+          <li>
+            <div class="music-title">《唱支山歌给党听》</div>
+            <div class="music-time">2021-6-28</div> 
+            <div class="music-come">中宣部“学习强国”献礼音乐专辑《百年》</div>
+          </li>
+          <li>
+            <div class="music-title">《青春须早为》</div>
+            <div class="music-time">2021-6-7</div> 
+            <div class="music-come">电视剧《青春须早为》片头曲</div>
+          </li>
+          <li>
+            <div class="music-title">《笑饮孤鸿》</div>
+            <div class="music-time">2021-3-9</div> 
+            <div class="music-come">小说《开封志怪》展昭人物曲</div>
+          </li>
+          <li>
+            <div class="music-title">《侍约》</div>
+            <div class="music-time">2021-2-12</div> 
+            <div class="music-come">电影《侍神令》宣传曲</div>
+          </li>
+          <li>
+            <div class="music-title">《那年夏天宁静的海》</div>
+            <div class="music-time">2020-9-10</div> 
+            <div class="music-come">「返场」之「华语金曲」</div>
+          </li>
         </ul>
       </div>
-      <div class="img-list">
+      <div class="imgs-list">
+        <img src="./img/8.png" alt="">
+        <img src="./img/4.png" alt="">
         <img src="./img/11.png" alt="">
-        <img src="./img/11.png" alt="">
+        <img src="./img/13.png" alt="">
+        <img src="./img/14.png" alt="">
+        <img src="./img/16.png" alt="">
+        <img src="./img/6.png" alt="">
+        <img src="./img/5.png" alt="">
       </div>
     </div>
 </body>
